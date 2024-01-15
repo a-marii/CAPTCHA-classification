@@ -1,1 +1,5 @@
-# Image-Analysis-Mini-Project
+# CAPTCHA-classification
+
+
+
+The aim of the project is to develop an algorithm for classifying individual digits in a set of CAPTCHA images. As an input, we use a CAPTCHA image, and the output value should be a vector containing the three digits in that image. During the visual analysis of the images, the main problems that can reduce the effectiveness of classification were identified: diagonal repeating lines, fine lines around the digits, noise, and different orientations of digits. During the analysis, our team concluded that the use of Fourier transform and morphology methods can help eliminate sloped repetitive and fine lines. Nevertheless, identifying suitable parameters and a sequence of steps required considerable effort and a lot of experimentation. It was also evident that the use of machine learning methods such as Ensemble Classifiers, SVM, k-NN, and others was necessary for the classification of digits
